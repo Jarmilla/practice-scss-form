@@ -9,3 +9,38 @@ body {
   background-color: $my-primary-color;
   color: $my-text-color;
 }
+
+nav {
+  img {
+    width: 7rem;
+    float: right;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+  margin: 0 5rem;
+  padding: 5rem 10rem;
+  input {
+    border: 1px solid $my-secondary-color;
+    padding: 1rem;
+    color: $my-text-color;
+  }
+  a {
+    color: $my-text-color;
+  }
+  .btn-info {
+    width: 20rem;
+    border: 1px solid white;
+    background-color: $my-secondary-color;
+    padding: 1rem;
+    margin: 2rem;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.2rem;
+  }
+}

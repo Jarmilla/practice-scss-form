@@ -6,4 +6,37 @@ body {
   color: #138072;
 }
 
+nav img {
+  width: 7rem;
+  float: right;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+  margin: 0 5rem;
+  padding: 5rem 10rem;
+}
+.form-container input {
+  border: 1px solid #39b69f;
+  padding: 1rem;
+  color: #138072;
+}
+.form-container a {
+  color: #138072;
+}
+.form-container .btn-info {
+  width: 20rem;
+  border: 1px solid white;
+  background-color: #39b69f;
+  padding: 1rem;
+  margin: 2rem;
+  color: white;
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+
 /*# sourceMappingURL=style.css.map */
