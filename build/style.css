@@ -67,6 +67,9 @@ nav img {
     text-align: right;
     font-size: 1.5rem;
   }
+  .form-container .btn-info {
+    width: 15rem;
+  }
 
   .checbox-container {
     display: flex;
