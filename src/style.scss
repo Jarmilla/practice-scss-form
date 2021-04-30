@@ -1,0 +1,11 @@
+$my-primary-color: #fbb03b;
+$my-secondary-color: #39b69f;
+$my-text-color: #138072;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: $my-primary-color;
+  color: $my-text-color;
+}
