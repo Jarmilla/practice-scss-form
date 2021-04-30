@@ -6,6 +6,9 @@ body {
   color: #138072;
 }
 
+nav .none {
+  visibility: hidden;
+}
 nav img {
   width: 7rem;
   float: right;
@@ -17,13 +20,20 @@ nav img {
   justify-content: center;
   gap: 1rem;
   text-align: center;
-  margin: 0 5rem;
-  padding: 5rem 10rem;
+  margin: 0 auto;
+  padding: 5% 20%;
+}
+.form-container h1 {
+  font-weight: 600;
+  font-size: 2rem;
 }
 .form-container input {
   border: 1px solid #39b69f;
   padding: 1rem;
   color: #138072;
+}
+.form-container label {
+  font-weight: 600;
 }
 .form-container a {
   color: #138072;
@@ -32,11 +42,39 @@ nav img {
   width: 20rem;
   border: 1px solid white;
   background-color: #39b69f;
-  padding: 1rem;
+  padding: 1.5rem;
   margin: 2rem;
   color: white;
   text-align: center;
   letter-spacing: 0.2rem;
+}
+
+@media (max-width: 1000px) {
+  .form-container {
+    padding: 5% 10%;
+  }
+}
+@media (max-width: 650px) {
+  nav img {
+    width: 5rem;
+  }
+
+  .form-container {
+    margin: 5rem auto;
+    padding: 1.5rem;
+  }
+  .form-container h1 {
+    text-align: right;
+    font-size: 1.5rem;
+  }
+
+  .checbox-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .checbox-container input {
+    width: 2rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
